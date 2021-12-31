@@ -11,10 +11,3 @@ BOOKING_URLS = {  # noqa
     'aaraub': 'https://outlook.office365.com/owa/calendar/impfzentrum-aarau@impfkampagne.onmicrosoft.com/bookings/',
     'aaraua': 'https://outlook.office365.com/owa/calendar/impfzentrum-koenigsfelden@impfkampagne.onmicrosoft.com/bookings/',
 }
-
-__all__ = (
-    'FIRST_DATE',
-    'TIMEOUT',
-    'DEBUG',
-    'BOOKING_URLS',
-)

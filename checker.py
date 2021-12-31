@@ -14,6 +14,7 @@ import settings
 console = Console()
 
 
+# check if an appointment is open for all urls given in BOOKINGS_URL
 def check_if_open(driver):
     for place, url in settings.BOOKING_URLS.items():
 
